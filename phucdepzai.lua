@@ -171,7 +171,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
     Callback = function()
 loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
   end
-  }) AddButton(Tab1o, {
+  }) AddButton(Tab4o, {
      Name = "OVD Hub",
     Callback = function()
  loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
@@ -196,7 +196,7 @@ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
 
 local startupSound = Instance.new("Sound")
     startupSound.SoundId = "rbxassetid://9098738774"
-    startupSound.Volume = 6
+    startupSound.Volume = 4
     startupSound.Looped = false
     startupSound.Parent = game.CoreGui
     startupSound:Play()
