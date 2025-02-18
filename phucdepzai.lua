@@ -31,6 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "BLOX FRUITS"})
+     local Tab5o = MakeTab({Name = "AIMBOT"})
      local Tab2o = MakeTab({Name = "MM2"})
      local Tab3o = MakeTab({Name = "ALL GAME"})
      local Tab4o = MakeTab({Name = "COMPO MM2"})
@@ -62,7 +63,7 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/angry5/ec20347a74aa4
     Callback = function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
   end
-  }) AddButton(Tab1o, {
+  }) AddButton(Tab5o, {
      Name = "AIM BOT",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Ace/main/Ace"))()
@@ -171,7 +172,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
 loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
   end
   }) AddButton(Tab1o, {
-     Name = "OverDrive",
+     Name = "OVD Hub",
     Callback = function()
  loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
   end
@@ -183,14 +184,19 @@ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
   }) AddButton(Tab4o, {
      Name = "Emote",
     Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+ loadstring(game:HttpGet("https://yarhm.goteamst.com/scr?channel=afem"))()
   end
+  }) AddButton(Tab5o, {
+     Name = "Văn thành aimbot",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/VanThanhIOS2027Online"))()
+  end 
   }) 
 ------- SOUND
 
 local startupSound = Instance.new("Sound")
-    startupSound.SoundId = "rbxassetid://5683417249"
-    startupSound.Volume = 5
+    startupSound.SoundId = "rbxassetid://9098738774"
+    startupSound.Volume = 6
     startupSound.Looped = false
     startupSound.Parent = game.CoreGui
     startupSound:Play()
