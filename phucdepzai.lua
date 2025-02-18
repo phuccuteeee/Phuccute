@@ -180,8 +180,12 @@ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
     Callback = function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Alt/alt/PermShiftlockAlt'))()
   end 
+  }) AddButton(Tab4o, {
+     Name = "Emote",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+  end
   }) 
-
 ------- SOUND
 
 local startupSound = Instance.new("Sound")
