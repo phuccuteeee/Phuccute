@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "AngryCat",
-         Animation = "AngryCat"
+         Title = "phucdepzai",
+         Animation = "phuccute"
          },
         Key = {
         KeySystem = false,
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=6996878701",
+       Image = "http://www.roblox.com/asset/?id=131974305806026",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
@@ -33,7 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "BLOX FRUITS"})
      local Tab2o = MakeTab({Name = "MM2"})
      local Tab3o = MakeTab({Name = "ALL GAME"})
-     local Tab4o = MakeTab({Name = "COMINGSOON"})
+     local Tab4o = MakeTab({Name = "COMPO MM2"})
 
 ------- BUTTON
     
@@ -170,7 +170,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
     Callback = function()
 loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
   end
-  })
+  }) AddButton(Tab1o, {
+     Name = "OverDrive",
+    Callback = function()
+ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
+  end
+  }) AddButton(Tab4o, {
+     Name = "Marco Shiftlook",
+    Callback = function()
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Alt/alt/PermShiftlockAlt'))()
+  end 
+  }) 
 
 ------- SOUND
 
