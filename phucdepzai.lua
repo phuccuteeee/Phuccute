@@ -34,7 +34,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab5o = MakeTab({Name = "AIMBOT"})
      local Tab2o = MakeTab({Name = "MM2"})
      local Tab3o = MakeTab({Name = "ALL GAME"})
-     local Tab4o = MakeTab({Name = "COMPO MM2"})
+     local Tab4o = MakeTab({Name = "KHÁC"})
+     local Tab6o = MakeTab({Name = "TSB"})
 
 ------- BUTTON
     
@@ -195,6 +196,26 @@ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
      Name = " N hub (vietsup) ",
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaodontsuyy/BloxFruit/refs/heads/main/NHubV.lua"))()
+  end 
+  }) AddButton(Tab1o, {
+     Name = "huri hub",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
+  end 
+  }) AddButton(Tab1o, {
+     Name = "teddy hub",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHop-FREE"))()
+  end 
+  }) AddButton(Tab6o, {
+     Name = "baconboss key:650",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/zopp1e-stack/RobertScripts/refs/heads/main/BaconBossScript/BeeconHub/main/BeeconHub"))()
+  end 
+  }) AddButton(Tab6o, {
+     Name = "tsb aimbot",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Cyborg883/TSB/refs/heads/main/CombatGui"))()
   end 
   }) 
 ------- SOUND
