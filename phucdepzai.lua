@@ -175,7 +175,7 @@ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
   }) AddButton(Tab3o, {
      Name = "emote 2",
     Callback = function()
- loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/BeemTZy/Motiona/refs/heads/main/source.lua"))()
   end
   }) AddButton(Tab3o, {
      Name = "Marco Shiftlook",
