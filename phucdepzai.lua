@@ -170,7 +170,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/hea
   }) AddButton(Tab2o, {
      Name = "OverDrive ",
     Callback = function()
-loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
+loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
   end
   }) AddButton(Tab3o, {
      Name = "emote 2",
