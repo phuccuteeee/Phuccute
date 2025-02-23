@@ -222,6 +222,11 @@ loadstring(game:HttpGet("https://overdrivehub.xyz/?d=auth&script=full"))()
     Callback = function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproooolucky/Unknown-Hub-X-Universal-Games/main/Games/Evade'))()
   end 
+  }) AddButton(Tab6o, {
+     Name = "infernium",
+    Callback = function()
+ loadstring(game:HttpGet("https://infernium.xyz/tsb.lua",true))()
+  end 
   }) 
 ------- SOUND
 
