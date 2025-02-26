@@ -36,6 +36,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab7o = MakeTab({Name = "evade"})
      local Tab6o = MakeTab({Name = "TSB"})
      local Tab3o = MakeTab({Name = "ALL GAME"})
+     local Tab8o = MakeTab({Name = "HOPBOOS"})
 
 ------- BUTTON
     
@@ -226,6 +227,21 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
      Name = "infernium",
     Callback = function()
  loadstring(game:HttpGet("https://infernium.xyz/tsb.lua",true))()
+  end 
+  }) AddButton(Tab3o, {
+     Name = "teddy fix lag",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Fixlag-delete100%25trash-Teddy"))()
+  end 
+  }) AddButton(Tab8o, {
+     Name = "teddy hop",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHop-FREE"))()
+  end 
+  }) AddButton(Tab8o, {
+     Name = "vxeze hop",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end 
   }) 
 ------- SOUND
