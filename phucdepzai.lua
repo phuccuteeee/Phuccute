@@ -35,6 +35,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "MM2"})
      local Tab7o = MakeTab({Name = "evade"})
      local Tab6o = MakeTab({Name = "TSB"})
+     local Tab9o = MakeTab({Name = "DEAD RAIL"})
      local Tab3o = MakeTab({Name = "ALL GAME"})
      local Tab8o = MakeTab({Name = "HOPBOOS"})
 
@@ -243,12 +244,32 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubHopBoss/refs/heads/main/SkidConCacBaM"))()
   end 
+  }) AddButton(Tab8o, {
+     Name = "min hop",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopBoss"))()
+  end 
+  }) AddButton(Tab9o, {
+     Name = "aimbot",
+    Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-Alpha-Aimbot-with-bind-30004"))()
+  end 
+  }) AddButton(Tab9o, {
+     Name = "speed hub",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end 
+  }) AddButton(Tab9o, {
+     Name = "GG hub",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/SecondDupe"))()
+  end 
   }) 
 ------- SOUND
 
 local startupSound = Instance.new("Sound")
     startupSound.SoundId = "rbxassetid://9098738774"
-    startupSound.Volume = 5
+    startupSound.Volume = 4
     startupSound.Looped = false
     startupSound.Parent = game.CoreGui
     startupSound:Play()
