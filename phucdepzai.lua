@@ -205,9 +205,9 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
   end 
   }) AddButton(Tab1o, {
-     Name = "teddy hub",
+     Name = "teddy hub key: teddypremium",
     Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHop-FREE"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
   end 
   }) AddButton(Tab6o, {
      Name = "baconboss key:650",
