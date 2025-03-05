@@ -264,6 +264,16 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Farx11122/Dupess/main/SecondDupe"))()
   end 
+  }) AddButton(Tab9o, {
+     Name = "aimbot anh hitbox",
+    Callback = function()
+ loadstring(game:HttpGet("https://pastefy.app/o4SV2jjx/raw"))()
+  end 
+  }) AddButton(Tab9o, {
+     Name = "spider",
+    Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-NEW-SCRIPT-From-Spider-X-Scripts-30291"))()
+  end 
   }) 
 ------- SOUND
 
