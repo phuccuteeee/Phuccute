@@ -274,6 +274,16 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
     Callback = function()
  loadstring(game:HttpGet("https://rawscripts.net/raw/Dead-Rails-Alpha-NEW-SCRIPT-From-Spider-X-Scripts-30291"))()
   end 
+  }) AddButton(Tab9o, {
+     Name = "tn hub",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/thiennrb7/Script/refs/heads/main/Bringall"))()
+  end 
+  }) AddButton(Tab9o, {
+     Name = "dead rail",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Rly-tech/skill/refs/heads/main/Dead-Rails"))()
+  end 
   }) 
 ------- SOUND
 
