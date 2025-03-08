@@ -284,7 +284,12 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rly-tech/skill/refs/heads/main/Dead-Rails"))()
   end 
-  }) 
+  }) AddButton(Tab8o, {
+     Name = "min hop",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
+  end 
+  })  
 ------- SOUND
 
 local startupSound = Instance.new("Sound")
