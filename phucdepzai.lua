@@ -289,7 +289,13 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
   end 
-  })  
+  }) AddButton(Tab1o, {
+     Name = "Vxeze v2",
+    Callback = function()
+ getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubv2"))()
+  end 
+  })   
 ------- SOUND
 
 local startupSound = Instance.new("Sound")
