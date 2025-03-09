@@ -204,7 +204,7 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/NGUYENVUDUY1/Dev-Hiru/refs/heads/main/HiruHub.lua"))()
   end 
-  }) AddButton(Tab1o, {
+  }) AddButton(Tab8o, {
      Name = "teddy hub key: teddypremium",
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/Teddy-Premium"))()
@@ -285,7 +285,7 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Rly-tech/skill/refs/heads/main/Dead-Rails"))()
   end 
   }) AddButton(Tab8o, {
-     Name = "min hop",
+     Name = "min hop sword",
     Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinHopSword"))()
   end 
@@ -295,7 +295,17 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
  getgenv().Team = "Marines"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubv2"))()
   end 
-  })   
+  }) AddButton(Tab8o, {
+     Name = "dattg hop",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/DatThg/refs/heads/main/DatTHGHopBoss"))()
+  end 
+  }) AddButton(Tab1o, {
+     Name = "tsuo hub",
+    Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+  end 
+  }) 
 ------- SOUND
 
 local startupSound = Instance.new("Sound")
