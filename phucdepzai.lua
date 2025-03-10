@@ -293,7 +293,7 @@ loadstring(game:HttpGet("https://api.overdrivehub.xyz/v1/auth"))()
      Name = "Vxeze v2",
     Callback = function()
  getgenv().Team = "Marines"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubv2"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/Vxezehub/refs/heads/main/VxezeHubv2"))() 
   end 
   }) AddButton(Tab8o, {
      Name = "dattg hop",
